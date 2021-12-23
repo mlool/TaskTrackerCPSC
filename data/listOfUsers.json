@@ -1,0 +1,123 @@
+{
+    "developerList": [
+        {
+            "password": "123",
+            "listOfDevelopers": ["dev1"],
+            "userID": "dev1",
+            "status": "developer"
+        },
+        {
+            "password": "123",
+            "listOfDevelopers": [
+                "dev1",
+                "dev2"
+            ],
+            "userID": "dev2",
+            "status": "developer"
+        },
+        {
+            "password": "123",
+            "listOfDevelopers": [
+                "dev1",
+                "dev2",
+                "dev3"
+            ],
+            "userID": "dev3",
+            "status": "developer"
+        }
+    ],
+    "toDoList": [
+        {
+            "visibility": true,
+            "urgency": 2,
+            "name": "new task",
+            "assignedDeveloper": "dev2",
+            "hoursRequiredForCompletion": 3,
+            "dateOfCompletion": {
+                "month": 12,
+                "year": 2022,
+                "day": 12
+            },
+            "dateOfCreation": {
+                "month": 11,
+                "year": 2021,
+                "day": 25
+            },
+            "status": "In progress"
+        },
+        {
+            "visibility": true,
+            "urgency": 2,
+            "name": "new task added by dev2",
+            "assignedDeveloper": "dev1",
+            "hoursRequiredForCompletion": 2,
+            "dateOfCompletion": {
+                "month": 10,
+                "year": 2022,
+                "day": 12
+            },
+            "dateOfCreation": {
+                "month": 11,
+                "year": 2021,
+                "day": 25
+            },
+            "status": "Not started"
+        }
+    ],
+    "adminList": [{
+        "toDoList": [
+            {
+                "visibility": true,
+                "urgency": 2,
+                "name": "new task",
+                "assignedDeveloper": "dev2",
+                "hoursRequiredForCompletion": 3,
+                "dateOfCompletion": {
+                    "month": 12,
+                    "year": 2022,
+                    "day": 12
+                },
+                "dateOfCreation": {
+                    "month": 11,
+                    "year": 2021,
+                    "day": 25
+                },
+                "status": "In progress"
+            },
+            {
+                "visibility": true,
+                "urgency": 2,
+                "name": "new task added by dev2",
+                "assignedDeveloper": "dev1",
+                "hoursRequiredForCompletion": 2,
+                "dateOfCompletion": {
+                    "month": 10,
+                    "year": 2022,
+                    "day": 12
+                },
+                "dateOfCreation": {
+                    "month": 11,
+                    "year": 2021,
+                    "day": 25
+                },
+                "status": "Not started"
+            }
+        ],
+        "password": "123",
+        "listOfDevelopers": [
+            "dev1",
+            "dev2",
+            "dev3"
+        ],
+        "userID": "admin1"
+    }],
+    "visitorList": [{
+        "password": "123",
+        "listOfDevelopers": [
+            "dev1",
+            "dev2"
+        ],
+        "userID": "vis1",
+        "status": "visitor"
+    }]
+}
